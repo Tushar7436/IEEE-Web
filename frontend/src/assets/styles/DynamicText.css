@@ -1,0 +1,20 @@
+.dynamic-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #337af7;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  width: fit-content;
+  animation: blink-caret 0.75s step-end infinite;
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #085c9c;
+  }
+}
