@@ -1,0 +1,114 @@
+.navbar {
+  background: #0000007f;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: fixed; /* Changed to fixed */
+  width: 100%; /* Added width to stretch across the viewport */
+  top: 0; /* Positioned at the top */
+  z-index: 1000; /* Ensuring it's above other content */
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  z-index: 1;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.navbar-logo {
+  color: #fff;
+  justify-self: start;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.navbar-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.navbar-item {
+  height: 60px;
+}
+
+.navbar-links {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 2rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links:hover {
+  color: #08cc96;
+}
+
+@media screen and (max-width: 960px) {
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #fff;
+  }
+
+  .navbar-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 95vh;
+    position: absolute;
+    top: 30px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+    background: #0000007f;
+  }
+
+  .navbar-menu.active {
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+
+  .navbar-item {
+    height: 80px;
+  }
+
+  .navbar-links {
+    color: #fff;
+    display: table;
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 960px) {
+  .navbar-menu {
+    width: 30%;
+    height: 95vh;
+  }
+}
