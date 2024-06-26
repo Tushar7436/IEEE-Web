@@ -20,6 +20,11 @@ export const Events = () => {
       description: "Guest lecture ",
       imgUrl: projImg2,
     },
+    {
+        title: "Electro-Motion",
+        description: "Guest lecture ",
+        imgUrl: projImg2,
+    },
   ];
 
   const Past_events = [
@@ -32,6 +37,11 @@ export const Events = () => {
       title: "Q-ROISITY",
       description: "Quiz Competition",
       imgUrl: projImg2,
+    },
+    {
+        title: "Q-ROISITY",
+        description: "Quiz Competition",
+        imgUrl: projImg2,
     },
 
   ];
