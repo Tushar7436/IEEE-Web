@@ -6,7 +6,7 @@ const Landing = () => {
   return (
     <div className="landing">
       <header className="land-header">
-        <h1>Welcome to IEEE </h1> <h1> VIT Bhopal Chapter</h1>
+        <h1>Welcome to IEEE </h1> <h2> VIT Bhopal Chapter</h2>
         <DynamicText /> {/* Dynamic Text Area */}
         <div className="btn-container">
           <div className="inner">
