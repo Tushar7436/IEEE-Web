@@ -94,6 +94,12 @@
         <mxCell id="OGv0HwBWZag9kX_-l8DM-12" value="Dashboard Route&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="740" y="210" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="OGv0HwBWZag9kX_-l8DM-14" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Flow-&amp;nbsp;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="10" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OGv0HwBWZag9kX_-l8DM-15" value="Access in the menu section above logout&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="120" width="200" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
