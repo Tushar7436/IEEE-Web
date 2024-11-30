@@ -51,10 +51,49 @@
     </mxGraphModel>
   </diagram>
   <diagram id="gAMfMeLHVBISR1bCxe-x" name="Backend(Dashboard)">
-    <mxGraphModel dx="1050" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1105" dy="586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="OGv0HwBWZag9kX_-l8DM-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OGv0HwBWZag9kX_-l8DM-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OGv0HwBWZag9kX_-l8DM-1" value="User&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OGv0HwBWZag9kX_-l8DM-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OGv0HwBWZag9kX_-l8DM-3" target="OGv0HwBWZag9kX_-l8DM-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OGv0HwBWZag9kX_-l8DM-3" value="Member&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OGv0HwBWZag9kX_-l8DM-4" value="Visitor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OGv0HwBWZag9kX_-l8DM-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OGv0HwBWZag9kX_-l8DM-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OGv0HwBWZag9kX_-l8DM-6" value="Login" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OGv0HwBWZag9kX_-l8DM-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OGv0HwBWZag9kX_-l8DM-8" target="OGv0HwBWZag9kX_-l8DM-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OGv0HwBWZag9kX_-l8DM-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="OGv0HwBWZag9kX_-l8DM-8" target="OGv0HwBWZag9kX_-l8DM-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OGv0HwBWZag9kX_-l8DM-8" value="Access control" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OGv0HwBWZag9kX_-l8DM-12" value="Dashboard Route&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
